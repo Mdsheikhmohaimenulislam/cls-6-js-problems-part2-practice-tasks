@@ -5,12 +5,11 @@
 //     {name: 'pant', price: 1200, quandtity: 2},
 // ]
 
-
 // function getshopping(products){
 //     let total = 0;
 //     for(const product of products){
-//         const quandtityCost = product.price * product.quandtity
-//         total = total+ quandtityCost;
+//         const quandtityCost = product.price * product.quandtity;
+//         total += quandtityCost;
 //     }
 //     return total;
 // }
