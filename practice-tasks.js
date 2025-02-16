@@ -3,13 +3,13 @@
 // const heights2 = [167, 190, 120, 165, 137,105];
 
 // function getHeights(heights2){
-//     let s = heights2[0]
+//     let small = heights2[0]
 //     for(const height of heights2){
-//         if(s > height){
-//             s = height
+//         if(small > height){
+//             small = height
 //         }
 //     }
-//     return s
+//     return small
 // }
 
 // const lowest = getHeights(heights2);
@@ -31,23 +31,23 @@
 //     return small;
     
 // }
-// const name = getHeights(heights2);
-// console.log(name);
+// const shortestName = getHeights(heights2);
+// console.log( shortestName);
 
 //? Tasks 3
-//  const laptop = 35000
+//  const laptop = 80000
 //  const table = 15000
 //  const mobile = 20000
 
-// function calculateElectronicsBudget(calculate){
-//     const tablePrice = table * calculate;
-//     const laptopPrice = laptop * calculate;
-//     const mobilePrice = mobile * calculate;
+// function calculateElectronicsBudget(tableCount,laptopCount,mobileCount){
+//     const tablePrice = table * tableCount;
+//     const laptopPrice = laptop * laptopCount;
+//     const mobilePrice = mobile * mobileCount;
 //     const totalBudget = tablePrice + laptopPrice + mobilePrice;
 //     return totalBudget;
     
 // }
-// const totalMoneyRequired = calculateElectronicsBudget(1,1,1);
+// const totalMoneyRequired = calculateElectronicsBudget(4,7,12);
 // console.log(totalMoneyRequired);
 
 //? tasks 4
@@ -75,23 +75,24 @@
 
 //? task 5 
 
-const employees = [
-    { name: "shahin", experience: 5, starting: 20000, increment: 5000 },
-    { name: "shihab", experience: 3, starting: 15000, increment: 7000 },
-    { name: "shikot", experience: 9, starting: 30000, increment: 1000 },
-    { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
-];
+// const employees = [
+//     { name: "shahin", experience: 5, starting: 20000, increment: 5000 },
+//     { name: "shihab", experience: 3, starting: 15000, increment: 7000 },
+//     { name: "shikot", experience: 9, starting: 30000, increment: 1000 },
+//     { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
+// ];
 
 
-function getcalCulated(employees){
-    let sumSalary = 0;
-    for(const employee of employees){
-        const incrementExperience = employee.experience * employee.increment;
-        const totalSalary = incrementExperience + employee.starting;
-        sumSalary = totalSalary;
-    }
-    return sumSalary;
-}
+// function getcalCulated(employees){
+//     let sumSalary = 0;
+//     for(const employee of employees){
+//         const incrementExperience = employee.experience * employee.increment;
+//         const totalSalary = incrementExperience + employee.starting;
+//         sumSalary += totalSalary
+       
+//     }
+//     return sumSalary;
+// }
 
-const totalSalary = getcalCulated(employees);
-console.log(totalSalary);
+// const totalSalary = getcalCulated(employees);
+// console.log(totalSalary);
